@@ -5,10 +5,6 @@ class LinesController < ApplicationController
   def faqs
   end
 
-  # GET /loadlines or /loadlines.json
-  def faqs
-  end
-
   # GET /lines or /lines.json
   def index
     @lines = Line.all

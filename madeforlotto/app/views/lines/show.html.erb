@@ -1,11 +1,12 @@
 <div class="container">
 <p style="color: green"><%= notice %></p>
 
+<br>
+
 <%= render @line %>
 
 <div>
-  <%= link_to "Edit this line", edit_line_path(@line) %> |
-  <%= link_to "Back to lines", lines_path %>
+  <%#= link_to "Edit this line", edit_line_path(@line) %>
 
   <%= button_to "Destroy this line", @line, method: :delete %>
 </div>
