@@ -15536,3 +15536,281 @@ Processing by LinesController#show as TURBO_STREAM
 Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 3771)
 
 
+Started GET "/makelines" for 127.0.0.1 at 2023-11-29 10:49:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2668)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 360)
+  Rendered layout layouts/application.html.erb (Duration: 90.2ms | Allocations: 40177)
+Completed 200 OK in 119ms (Views: 99.2ms | ActiveRecord: 0.0ms | Allocations: 44764)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-11-29 10:49:46 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2742)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5864)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 6875)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-11-29 10:50:42 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2724)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 5837)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 6813)
+
+
+Started GET "/makelines?search_string=1&search_string=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:50:55 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2239)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4686)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 5019)
+
+
+Started GET "/makelines?search_string=1&search_string=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:51:00 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2233)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4679)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4993)
+
+
+Started GET "/makelines?search_string=8&search_string=1&commit=Search" for 127.0.0.1 at 2023-11-29 10:51:06 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"1", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2229)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4667)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4976)
+
+
+Started GET "/makelines?search_string=8&search_string=1&commit=Search" for 127.0.0.1 at 2023-11-29 10:51:35 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"1", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2730)
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5835)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 6782)
+
+
+Started GET "/makelines?search_string=1&search_string=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:51:38 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2224)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 4662)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 4993)
+
+
+Started GET "/makelines?search_string=1&search_string=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:51:44 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2212)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4650)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4959)
+
+
+Started GET "/makelines?search_string=1&search_string=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:53:08 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2671)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 301)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 17671)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 18834)
+
+
+Started GET "/makelines?luckyNum=1&unluckyNum=8&commit=Search" for 127.0.0.1 at 2023-11-29 10:53:12 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"1", "unluckyNum"=>"8", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2223)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4661)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4997)
+
+
+Started GET "/loadlines" for 127.0.0.1 at 2023-11-29 10:55:17 +0000
+Started GET "/loadlines" for 127.0.0.1 at 2023-11-29 10:55:18 +0000
+Processing by LinesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/index.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/index.html.erb:10
+  Rendered lines/_line.html.erb (Duration: 1.4ms | Allocations: 219)
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered lines/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 6151)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 259)
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 21123)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 1.0ms | Allocations: 23047)
+
+
+Processing by LinesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/index.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/index.html.erb:10
+  Rendered lines/_line.html.erb (Duration: 0.3ms | Allocations: 38)
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered lines/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3034)
+Started GET "/lines/new" for 127.0.0.1 at 2023-11-29 10:55:19 +0000
+Processing by LinesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/new.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | Allocations: 18774)
+Completed 200 OK in 53ms (Views: 47.8ms | ActiveRecord: 1.1ms | Allocations: 20241)
+
+
+  Rendered lines/_form.html.erb (Duration: 6.0ms | Allocations: 1464)
+  Rendered lines/new.html.erb within layouts/application (Duration: 18.0ms | Allocations: 3554)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 6196)
+Completed 200 OK in 40ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 10794)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-11-29 10:55:20 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2661)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5100)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5526)
+
+
+Started GET "/makelines?search_string=8&search_string2=18&commit=Search" for 127.0.0.1 at 2023-11-29 10:55:26 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"8", "search_string2"=>"18", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2225)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4663)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4973)
+
+
+Started GET "/makelines?search_string=9&search_string2=11&commit=Search" for 127.0.0.1 at 2023-11-29 10:55:39 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"9", "search_string2"=>"11", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.0ms | Allocations: 2231)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4669)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4979)
+
+
+Started GET "/makelines?search_string=11&search_string2=9&commit=Search" for 127.0.0.1 at 2023-11-29 10:55:46 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"11", "search_string2"=>"9", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2238)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4691)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5001)
+
+
+Started GET "/makelines?search_string=11&search_string2=9&commit=Search" for 127.0.0.1 at 2023-11-29 10:56:44 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"search_string"=>"11", "search_string2"=>"9", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2695)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 301)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 17694)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.0ms | Allocations: 18859)
+
+
+Started GET "/makelines?luckyNum=hcgvh&unluckyNum=sdd&commit=Search" for 127.0.0.1 at 2023-11-29 10:56:50 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"hcgvh", "unluckyNum"=>"sdd", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.7ms | Allocations: 2207)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4652)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4984)
+
+
+Started GET "/makelines?luckyNum=6&unluckyNum=3&commit=Search" for 127.0.0.1 at 2023-11-29 10:56:59 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"6", "unluckyNum"=>"3", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.7ms | Allocations: 2219)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4659)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4969)
+
+
+Started GET "/makelines?luckyNum=3&unluckyNum=6&commit=Search" for 127.0.0.1 at 2023-11-29 10:57:07 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"3", "unluckyNum"=>"6", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.9ms | Allocations: 2222)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4666)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4976)
+
+
+Started GET "/makelines?luckyNum=3&unluckyNum=6&commit=Search" for 127.0.0.1 at 2023-11-29 10:57:48 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"3", "unluckyNum"=>"6", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2721)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5826)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 6771)
+
+
+Started GET "/makelines?luckyNum=69&unluckyNum=9&commit=Search" for 127.0.0.1 at 2023-11-29 10:57:58 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"69", "unluckyNum"=>"9", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2217)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4655)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4988)
+
+
+Started GET "/makelines?luckyNum=36&unluckyNum=7&commit=Search" for 127.0.0.1 at 2023-11-29 10:58:06 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"36", "unluckyNum"=>"7", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2223)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4661)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4971)
+
+

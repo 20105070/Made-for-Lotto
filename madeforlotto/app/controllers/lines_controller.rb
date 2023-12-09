@@ -3,8 +3,9 @@ class LinesController < ApplicationController
 
   # GET /makelines or /makelines.json
   def makelines
-    @input1 = params[:search_string]
-    @result = MakeLine.make(@input1, "4")
+    @input1 = params[:luckyNum]
+    @input2 = params[:unluckyNum]
+    @result = MakeLine.make(@input1, @input2)
   end
 
   # GET /faqs or /faqs.json

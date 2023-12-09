@@ -37,11 +37,13 @@ end
 
 <br>
 
-<h1> <%#= @input1 %> <%= @result %> </h1>
+<h1> <%#= @input1 %> <%#= @input2 %> <%= @result %> </h1>
 <%= @input %>
 <%= form_with url: "/makelines", method: :get do |form| %>
-  <%= form.label :query, "Send lucky number to pot:" %>
-  <%= form.text_field :search_string %>
+  <%= form.label :query, "Lucky number" %>
+  <%= form.text_field :luckyNum %>
+  <%= form.label :query, "Unlucky number" %>
+  <%= form.text_field :unluckyNum %>
   <%= form.submit "Search" %>
 <% end %>
 
