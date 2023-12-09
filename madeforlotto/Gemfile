@@ -28,7 +28,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # makelines gem
-gem "makelines"
+# gem "makelines"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

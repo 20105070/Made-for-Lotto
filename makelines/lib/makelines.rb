@@ -26,5 +26,6 @@ class Generatelines
         end
         return line
     end
+end
 
     
