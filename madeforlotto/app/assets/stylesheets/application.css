@@ -15,9 +15,10 @@
  */
 
  body {
-    background-color: #d8da7a;
-    color: #6f2da8;
+    background-color: #E3FBCB;
+    color: #617C58;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
   }
 
 /*.flex Styling*/
@@ -45,4 +46,3 @@
 .navOff:hover {
   background-color: #00FF00
 }
-  
