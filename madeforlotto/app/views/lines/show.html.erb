@@ -3,10 +3,12 @@
 
 <br>
 
+<h1>new.html.erb</h1>
+
 <%= render @line %>
 
 <div>
-  <%#= link_to "Edit this line", edit_line_path(@line) %>
+  <%= link_to "Edit this line", edit_line_path(@line) %>
 
   <%= button_to "Destroy this line", @line, method: :delete %>
 </div>

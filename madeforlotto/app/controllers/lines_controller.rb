@@ -1,6 +1,12 @@
 class LinesController < ApplicationController
   before_action :set_line, only: %i[ show edit update destroy ]
 
+  # GET /makelines or /makelines.json
+  def makelines
+    @input1 = params[:search_string]
+    @result = MakeLine.make(@input1, "4")
+  end
+
   # GET /faqs or /faqs.json
   def faqs
   end
