@@ -3,6 +3,7 @@ class LinesController < ApplicationController
 
   # GET /makelines or /makelines.json
   def makelines
+    @line = Line.new
     @input1 = params[:luckyNum]
     @input2 = params[:unluckyNum]
     @result = MakeLine.make(@input1, @input2)
@@ -12,18 +13,13 @@ class LinesController < ApplicationController
   def faqs
   end
 
-  # GET /lines or /lines.json
-  def index
+  # GET /loadlines or /loadlines.json
+  def loadlines
     @lines = Line.all
   end
 
   # GET /lines/1 or /lines/1.json
   def show
-  end
-
-  # GET /lines/new
-  def new
-    @line = Line.new
   end
 
   # GET /lines/1/edit
@@ -63,7 +59,7 @@ class LinesController < ApplicationController
     @line.destroy
 
     respond_to do |format|
-      format.html { redirect_to lines_url, notice: "Line was successfully destroyed." }
+      format.html { redirect_to loadlines_path, notice: "Line was successfully destroyed." }
       format.json { head :no_content }
     end
   end

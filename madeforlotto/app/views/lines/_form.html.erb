@@ -12,11 +12,11 @@
   <% end %>
 
   <div>
-    <%= form.label :line, style: "display: block" %>
-    <%= form.text_field :line %>
+    <%= form.text_field :line, value: @result %>
   </div>
 
   <div>
     <%= form.submit %>
   </div>
+
 <% end %>

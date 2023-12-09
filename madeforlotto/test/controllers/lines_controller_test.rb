@@ -5,16 +5,6 @@ class LinesControllerTest < ActionDispatch::IntegrationTest
     @line = lines(:one)
   end
 
-  test "should get index" do
-    get lines_url
-    assert_response :success
-  end
-
-  test "should get new" do
-    get new_line_url
-    assert_response :success
-  end
-
   test "should create line" do
     assert_difference("Line.count") do
       post lines_url, params: { line: { line: @line.line } }
