@@ -1,13 +1,3 @@
-<div class="container">
-
-<br>
-
-<h1>Make Lines</h1>
-<p>http://127.0.0.1:3000 || http://127.0.0.1:3000/makelines</p>
-
-<br>
-
-<p>
 class MakeLine
     def self.make(luckyNum, unluckyNum)
         pot = (1..47).to_a
@@ -32,6 +22,3 @@ class MakeLine
         return line
     end
 end
-</p>
-
-</div>
