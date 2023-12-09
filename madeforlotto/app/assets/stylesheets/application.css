@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+    background-color: #d8da7a;
+    color: #6f2da8;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/*.flex Styling*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+  /*.navOff Styling*/
+.navOff {
+  background-color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold
+}
+
+/*.navOff:active Styling*/
+.navOff:active {
+  transform: scale(0.96);
+}
+
+/*.navOff:hover Styling*/
+.navOff:hover {
+  background-color: #00FF00
+}
+  
