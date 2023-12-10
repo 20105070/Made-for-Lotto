@@ -6,7 +6,7 @@ class LayoutsTest < ActionDispatch::IntegrationTest
     @line = lines :one
   end
 
-  test 'Make Lines has NavBar, number form, and create form' do
+  test 'should display navbar, number form, and create form on Make Lines' do
     get root_path
     assert_select 'a', "Make Lines", 1
     assert_select 'a', "FAQs", 1
@@ -14,14 +14,14 @@ class LayoutsTest < ActionDispatch::IntegrationTest
     assert_select 'form', 2
   end
 
-  test 'FAQs has NavBar' do
+  test 'should display navbar on FAQs' do
     get faqs_path
     assert_select 'a', "Make Lines", 1
     assert_select 'a', "FAQs", 1
     assert_select 'a', "Load Lines", 1
   end
 
-  test 'Load Lines has NavBar and line link' do
+  test 'should display navbar and read link on Load Lines' do
     get loadlines_path
     assert_select 'a', "Make Lines", 1
     assert_select 'a', "FAQs", 1
@@ -29,7 +29,7 @@ class LayoutsTest < ActionDispatch::IntegrationTest
     assert_select 'a', "Show this line", 1
   end
 
-  test 'show.html.erb has NavBar, edit link, and delete button' do
+  test 'should display navbar, update link, and delete button on show.html.erb' do
     get line_path(@line)
     assert_select 'a', "Make Lines", 1
     assert_select 'a', "FAQs", 1
@@ -38,7 +38,7 @@ class LayoutsTest < ActionDispatch::IntegrationTest
     assert_select 'form', "Destroy this line", 1
   end
 
-  test 'edit.html.erb has NavBar and edit button' do
+  test 'should display navbar and update button on edit.html.erb' do
     get edit_line_path(@line)
     assert_select 'a', "Make Lines", 1
     assert_select 'a', "FAQs", 1

@@ -33,6 +33,6 @@ class LinesControllerTest < ActionDispatch::IntegrationTest
       delete line_url(@line)
     end
 
-    assert_redirected_to lines_url
+    assert_redirected_to loadlines_url
   end
 end
