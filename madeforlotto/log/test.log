@@ -9526,3 +9526,707 @@ Processing by LinesController#show as HTML
   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 2081)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2416)
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (2.6ms)[0m  [1m[31mDELETE FROM "lines";
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (980190962, 'MyString', '2023-12-11 10:47:22.190300', '2023-12-11 10:47:22.190300');
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (298486374, 'MyString', '2023-12-11 10:47:22.190300', '2023-12-11 10:47:22.190300')[0m
+  [1m[36mTRANSACTION (9.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_key_check[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+LinesControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:47:24 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 18.0ms | Allocations: 217)
+  Rendered lines/_form.html.erb (Duration: 34.9ms | Allocations: 1320)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 117.4ms | Allocations: 2708)
+  Rendered layouts/_navbar.html.erb (Duration: 20.4ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 1777.6ms | Allocations: 52329)
+Completed 200 OK in 2196ms (Views: 1872.2ms | ActiveRecord: 0.1ms | Allocations: 57185)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_update_line
+--------------------------------------------
+  [1m[36mLine Load (0.3ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#update as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}, "id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Redirected to http://www.example.com/lines/980190962
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1190)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+LinesControllerTest: test_should_show_line
+------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/show.html.erb within layouts/application (Duration: 33.4ms | Allocations: 571)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 2162)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.1ms | Allocations: 2608)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_create_line
+--------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started POST "/lines" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#create as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Create (1.3ms)[0m  [1m[32mINSERT INTO "lines" ("line", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["line", "MyString"], ["created_at", "2023-12-11 10:47:26.770593"], ["updated_at", "2023-12-11 10:47:26.770593"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/lines/980190963
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms | Allocations: 1066)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" ORDER BY "lines"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+LinesControllerTest: test_should_destroy_line
+---------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started DELETE "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Destroy (2.0ms)[0m  [1m[31mDELETE FROM "lines" WHERE "lines"."id" = ?[0m  [["id", 980190962]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/loadlines
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms | Allocations: 642)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_read_link_on_Load_Lines
+-------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 18.3ms | Allocations: 673)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 2274)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.1ms | Allocations: 2622)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+LayoutsTest: test_should_display_navbar_on_FAQs
+-----------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/faqs" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 19.3ms | Allocations: 250)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 1795)
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 2073)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_update_button_on_edit.html.erb
+--------------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered lines/_form.html.erb (Duration: 1.1ms | Allocations: 423)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 601)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 2132)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.1ms | Allocations: 2467)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_number_form,_and_create_form_on_Make_Lines
+-----------------------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.6ms | Allocations: 411)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 45.6ms | Allocations: 1461)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 3070)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms | Allocations: 3427)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_update_link,_and_delete_button_on_show.html.erb
+----------------------------------------------------------------------------------------
+  [1m[36mLine Load (0.4ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:26 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 357)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1889)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 2268)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (1.3ms)[0m  [1m[31mDELETE FROM "lines";
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (980190962, 'MyString', '2023-12-11 10:47:44.638776', '2023-12-11 10:47:44.638776');
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (298486374, 'MyString', '2023-12-11 10:47:44.638776', '2023-12-11 10:47:44.638776')[0m
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_key_check[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+LayoutsTest: test_should_display_navbar_on_FAQs
+-----------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/faqs" for 127.0.0.1 at 2023-12-11 10:47:44 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 3.7ms | Allocations: 684)
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 343)
+  Rendered layout layouts/application.html.erb (Duration: 107.5ms | Allocations: 36393)
+Completed 200 OK in 158ms (Views: 119.2ms | ActiveRecord: 0.0ms | Allocations: 40781)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_update_button_on_edit.html.erb
+--------------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.8ms | Allocations: 205)
+  Rendered lines/_form.html.erb (Duration: 4.6ms | Allocations: 1245)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 57.9ms | Allocations: 2240)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 3855)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms | Allocations: 4530)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_number_form,_and_create_form_on_Make_Lines
+-----------------------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.8ms | Allocations: 411)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1523)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3120)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3558)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_read_link_on_Load_Lines
+-------------------------------------------------------------------
+  [1m[36mLine Load (0.4ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 2.5ms | Allocations: 706)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2247)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.1ms | Allocations: 2590)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_update_link,_and_delete_button_on_show.html.erb
+----------------------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered lines/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 494)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2025)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2426)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_update_line
+--------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#update as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}, "id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Redirected to http://www.example.com/lines/980190962
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1190)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+LinesControllerTest: test_should_show_line
+------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered lines/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 398)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1990)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 2391)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_create_line
+--------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started POST "/lines" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#create as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Create (1.6ms)[0m  [1m[32mINSERT INTO "lines" ("line", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["line", "MyString"], ["created_at", "2023-12-11 10:47:45.252979"], ["updated_at", "2023-12-11 10:47:45.252979"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/lines/980190963
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms | Allocations: 1041)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mLine Load (0.6ms)[0m  [1m[34mSELECT "lines".* FROM "lines" ORDER BY "lines"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+LinesControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/_form.html.erb (Duration: 2.2ms | Allocations: 440)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 631)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2224)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 2607)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+LinesControllerTest: test_should_destroy_line
+---------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started DELETE "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:47:45 +0000
+Processing by LinesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Destroy (1.2ms)[0m  [1m[31mDELETE FROM "lines" WHERE "lines"."id" = ?[0m  [["id", 980190962]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/loadlines
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms | Allocations: 629)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (5.0ms)[0m  [1m[31mDELETE FROM "lines";
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (980190962, 'MyString', '2023-12-11 10:48:40.402056', '2023-12-11 10:48:40.402056');
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (298486374, 'MyString', '2023-12-11 10:48:40.402056', '2023-12-11 10:48:40.402056')[0m
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_key_check[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_update_line
+--------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#update as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}, "id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Redirected to http://www.example.com/lines/980190962
+Completed 302 Found in 26ms (ActiveRecord: 0.1ms | Allocations: 3000)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_create_line
+--------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started POST "/lines" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#create as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Create (5.5ms)[0m  [1m[32mINSERT INTO "lines" ("line", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["line", "MyString"], ["created_at", "2023-12-11 10:48:40.778678"], ["updated_at", "2023-12-11 10:48:40.778678"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/lines/980190963
+Completed 302 Found in 8ms (ActiveRecord: 5.6ms | Allocations: 1065)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" ORDER BY "lines"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+LinesControllerTest: test_should_destroy_line
+---------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started DELETE "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Destroy (0.8ms)[0m  [1m[31mDELETE FROM "lines" WHERE "lines"."id" = ?[0m  [["id", 980190962]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/loadlines
+Completed 302 Found in 2ms (ActiveRecord: 0.9ms | Allocations: 643)
+  [1m[36mLine Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+LinesControllerTest: test_should_show_line
+------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.9ms | Allocations: 212)
+  Rendered lines/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1447)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 135.0ms | Allocations: 36898)
+Completed 200 OK in 160ms (Views: 146.0ms | ActiveRecord: 0.0ms | Allocations: 40144)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+LinesControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered lines/_form.html.erb (Duration: 3.7ms | Allocations: 1204)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1638)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3253)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3708)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+LayoutsTest: test_should_display_navbar_on_FAQs
+-----------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/faqs" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.9ms | Allocations: 313)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1866)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2195)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_number_form,_and_create_form_on_Make_Lines
+-----------------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2023-12-11 10:48:40 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.2ms | Allocations: 411)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1462)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3058)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3420)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_update_link,_and_delete_button_on_show.html.erb
+----------------------------------------------------------------------------------------
+  [1m[36mLine Load (0.3ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:48:41 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 357)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1889)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 2268)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_update_button_on_edit.html.erb
+--------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:48:41 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered lines/_form.html.erb (Duration: 0.6ms | Allocations: 370)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 1.0ms | Allocations: 548)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2079)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 2414)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_read_link_on_Load_Lines
+-------------------------------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-11 10:48:41 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 1.7ms | Allocations: 649)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2188)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 2500)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (2.9ms)[0m  [1m[31mDELETE FROM "lines";
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (980190962, 'MyString', '2023-12-11 10:51:46.217138', '2023-12-11 10:51:46.217138');
+INSERT INTO "lines" ("id", "line", "created_at", "updated_at") VALUES (298486374, 'MyString', '2023-12-11 10:51:46.217138', '2023-12-11 10:51:46.217138')[0m
+  [1m[36mTRANSACTION (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_key_check[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+LinesControllerTest: test_should_destroy_line
+---------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started DELETE "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Destroy (2.3ms)[0m  [1m[31mDELETE FROM "lines" WHERE "lines"."id" = ?[0m  [["id", 980190962]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/loadlines
+Completed 302 Found in 14ms (ActiveRecord: 2.4ms | Allocations: 2769)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_create_line
+--------------------------------------------
+  [1m[36mLine Load (0.3ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+Started POST "/lines" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#create as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mLine Create (1.1ms)[0m  [1m[32mINSERT INTO "lines" ("line", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["line", "MyString"], ["created_at", "2023-12-11 10:51:46.704866"], ["updated_at", "2023-12-11 10:51:46.704866"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/lines/980190963
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms | Allocations: 1282)
+  [1m[36mLine Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "lines"[0m
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" ORDER BY "lines"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+LinesControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.7ms | Allocations: 212)
+  Rendered lines/_form.html.erb (Duration: 5.6ms | Allocations: 1269)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 12.7ms | Allocations: 2518)
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 143.9ms | Allocations: 38038)
+Completed 200 OK in 171ms (Views: 159.6ms | ActiveRecord: 0.1ms | Allocations: 41283)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+LinesControllerTest: test_should_show_line
+------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered lines/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 551)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2083)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms | Allocations: 2517)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+LinesControllerTest: test_should_update_line
+--------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#update as HTML
+  Parameters: {"line"=>{"line"=>"MyString"}, "id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Redirected to http://www.example.com/lines/980190962
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 646)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_update_link,_and_delete_button_on_show.html.erb
+----------------------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered lines/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 310)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1841)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 2176)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar,_number_form,_and_create_form_on_Make_Lines
+-----------------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.4ms | Allocations: 411)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1462)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3058)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3418)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_read_link_on_Load_Lines
+-------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 1.3ms | Allocations: 699)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2240)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 2583)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+LayoutsTest: test_should_display_navbar_and_update_button_on_edit.html.erb
+--------------------------------------------------------------------------
+  [1m[36mLine Load (0.1ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/lines/980190962/edit" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLine Load (0.0ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering lines/edit.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered lines/_form.html.erb (Duration: 0.4ms | Allocations: 370)
+  Rendered lines/edit.html.erb within layouts/application (Duration: 0.6ms | Allocations: 548)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2079)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2426)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+LayoutsTest: test_should_display_navbar_on_FAQs
+-----------------------------------------------
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/faqs" for 127.0.0.1 at 2023-12-11 10:51:46 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 1.5ms | Allocations: 250)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1795)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2073)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
