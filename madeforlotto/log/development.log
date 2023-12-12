@@ -4437,12 +4437,12 @@ Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 <% @lines.each do |line| %>
     <%= render line %>
@@ -4451,12 +4451,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    <% @lines.each do |line| %>
 11:        <%= render line %>
@@ -4479,12 +4479,12 @@ Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 <% @lines.each do |line| %>
     <%= render line %>
@@ -4493,12 +4493,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    <% @lines.each do |line| %>
 11:        <%= render line %>
@@ -4526,12 +4526,12 @@ Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4540,12 +4540,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4564,12 +4564,12 @@ Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4578,12 +4578,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4607,12 +4607,12 @@ Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 5
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4621,12 +4621,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4648,12 +4648,12 @@ Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4662,12 +4662,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4690,12 +4690,12 @@ Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 6
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4704,12 +4704,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4733,12 +4733,12 @@ Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4747,12 +4747,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4775,12 +4775,12 @@ Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4789,12 +4789,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4817,12 +4817,12 @@ Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4831,12 +4831,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4858,12 +4858,12 @@ Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 5
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4872,12 +4872,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4900,12 +4900,12 @@ Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4914,12 +4914,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4943,12 +4943,12 @@ Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4957,12 +4957,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -4985,12 +4985,12 @@ Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -4999,12 +4999,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5027,12 +5027,12 @@ Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5041,12 +5041,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5069,12 +5069,12 @@ Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 5
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5083,12 +5083,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5110,12 +5110,12 @@ Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 6
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5124,12 +5124,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5153,12 +5153,12 @@ Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5167,12 +5167,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5195,12 +5195,12 @@ Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5209,12 +5209,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5237,12 +5237,12 @@ Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5251,12 +5251,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5278,12 +5278,12 @@ Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5292,12 +5292,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -5389,12 +5389,12 @@ Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1
   
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
 
-<br>
+<br />
 
 <h1>Load Lines</h1>
 <p>http://127.0.0.1:3000/loadlines</p>
 
-<br>
+<br />
 
 </div>
 
@@ -5403,12 +5403,12 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 ):
 1:    <div class="container">
 2:    
-3:    <br>
+3:    <br />
 4:    
 5:    <h1>Load Lines</h1>
 6:    <p>http://127.0.0.1:3000/loadlines</p>
 7:    
-8:    <br>
+8:    <br />
 9:    
 10:    </div>
 11:    
@@ -33240,5 +33240,216 @@ Processing by LinesController#makelines as HTML
   Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 89)
   Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 5449)
 Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5793)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-12 14:03:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.6ms | Allocations: 1182)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4921)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 219.2ms | Allocations: 49407)
+Completed 200 OK in 263ms (Views: 229.5ms | ActiveRecord: 0.6ms | Allocations: 58585)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-12-12 14:03:46 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.1ms | Allocations: 487)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2818)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5566)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5971)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 14:03:48 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 1.7ms | Allocations: 367)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3109)
+Completed 200 OK in 19ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 3467)
+
+
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-12 14:03:49 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/loadlines.html.erb:12
+  Rendered lines/_line.html.erb (Duration: 0.8ms | Allocations: 211)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1824)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4686)
+Completed 200 OK in 23ms (Views: 16.8ms | ActiveRecord: 0.2ms | Allocations: 5124)
+
+
+Started GET "/lines/76" for 127.0.0.1 at 2023-12-12 14:03:51 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"76"}
+  [1m[36mLine Load (0.3ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 76], ["LIMIT", 1]]
+  ↳ app/controllers/lines_controller.rb:70:in `set_line'
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered lines/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 884)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3720)
+Completed 200 OK in 30ms (Views: 19.5ms | ActiveRecord: 0.3ms | Allocations: 6539)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 14:03:54 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.2ms | Allocations: 175)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2917)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3204)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-12-12 14:03:54 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.6ms | Allocations: 463)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2727)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5448)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 5785)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-12 14:59:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.6ms | Allocations: 1182)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4918)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 116.5ms | Allocations: 46485)
+Completed 200 OK in 161ms (Views: 127.0ms | ActiveRecord: 0.6ms | Allocations: 55667)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 14:59:45 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 1.1ms | Allocations: 436)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3244)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:00:01 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.5ms | Allocations: 175)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2916)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 3199)
+
+
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-12 15:00:44 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.3ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/loadlines.html.erb:12
+  Rendered lines/_line.html.erb (Duration: 1.2ms | Allocations: 211)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 142.0ms | Allocations: 7899)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 151.6ms | Allocations: 10759)
+Completed 200 OK in 159ms (Views: 152.7ms | ActiveRecord: 0.3ms | Allocations: 11191)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:00:46 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.5ms | Allocations: 238)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 2980)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 3295)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-12-12 15:00:48 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.1ms | Allocations: 471)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2715)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5436)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 5780)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:01:37 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.3ms | Allocations: 181)
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2923)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3206)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-12 15:03:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.5ms | Allocations: 1182)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 11.9ms | Allocations: 4939)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 143.7ms | Allocations: 46402)
+Completed 200 OK in 188ms (Views: 153.3ms | ActiveRecord: 1.1ms | Allocations: 55580)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:03:53 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 2.6ms | Allocations: 454)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 3264)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-12 15:07:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.6ms | Allocations: 1182)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 13.7ms | Allocations: 4930)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 129.1ms | Allocations: 46432)
+Completed 200 OK in 178ms (Views: 137.1ms | ActiveRecord: 0.8ms | Allocations: 55610)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:07:40 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 2.1ms | Allocations: 430)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3240)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 15:07:59 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.6ms | Allocations: 178)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2920)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 3201)
 
 

@@ -1,29 +1,49 @@
 <div class="container">
 <p style="color: green"><%= notice %></p>
 
-<br>
+<br />
 
 <h1>FAQs</h1>
 <p>http://127.0.0.1:3000/faqs</p>
 
-<br>
+<br />
+
+<p>What is <i>Made for Lotto</i>?</p>
+<p>The project is a line generator for National Lottery’s Lotto. <i>Made for Lotto</i> consists of three main views; Make Lines, FAQs, Load Lines.</p>
+
+<br />
+
+<p>What does Make Lines do?</p>
+<p>Make Lines allows a user to enter a lucky and an unlucky number in the range of 1-47. A lucky number is guaranteed to be selected during line generation, while an unlucky number is excluded during line generation. Next, the user can click the Submit button to generate a Lotto line. Next, a custom Ruby gem is used to select six numbers from the range of 1-47, including the lucky number and excluding the unlucky number. Next, a generated line can be saved to a database by clicking the Create Line button.</p>
+
+<br />
+
+<p>What does FAQs do?</p>
+<p>FAQs allows a user to read up-to-date instructions on how to use <i>Made for Lotto</i> and how to play National Lottery’s Lotto. The format of these instructions is questions and answers. Information such as the minimum play for National Lottery’s Lotto being two €2 lines per draw and the National Lottery draw being every Wednesday and Saturday at 19:55 on RTÉ One are examples of answers to questions.</p>
+
+<br />
+
+<p>What does Load Lines do?</p>
+<p>Load Lines allows a user to read all previously saved Lotto lines from a database. Next, the user can click the Show this line link below a Lotto line to edit or delete the Lotto line. If the user wants to edit the Lotto line, the user can click the Edit this line link, input the edited line, and click the Update Line button. If the user wants to delete the Lotto line, the user can click the Destroy this line button. For the database, the six-number Lotto line is stored in a single string variable for readability purposes.</p>
+
+<br />
 
 <p>What is Lotto?</p>
 <p>Lotto is a simple and fun number draw game in which you can pick any six numbers from 1
 to 47. At each draw six random numbers are drawn, along with one bonus number.</p>
 
-<br>
+<br />
 
 <p>How much is a Lotto ticket?</p>
 <p>The minimum play for Lotto is two lines per draw, which costs €4. You can play additional
 lines for €2 per line.</p>
 
-<br>
+<br />
 
 <p>What's the Lotto jackpot?</p>
 <p>The minimum jackpot is €2 million and rolls up from there if the jackpot is not won.</p>
 
-<br>
+<br />
 
 <p>What is the current Lotto jackpot cap?</p>
 <p>The Lotto Jackpot is capped if it reaches €19.06 million.
@@ -35,19 +55,13 @@ becomes a Will Be Won draw, where if there is no winner of the Jackpot, then the
 prize and excess will roll down and be allocated to the next highest prize tier at which there
 is at least one winner.</p>
 
-<br>
+<br />
 
 <p>When are the Lotto draws?</p>
-<p>Draw days are every Wednesday and Saturday at 7.55pm. You can find out the results on our
-results page (/draw-games/results/view?game=lotto) after 9.15pm on the night of the draw.
+<p>Draw days are every Wednesday and Saturday at 7.55pm. You can find out the results on our <a href="https://www.lottery.ie/results/lotto/history">results page</a> after 9.15pm on the night of the draw.
 Sales close at 7.45pm precisely until 7.55pm on draw days.</p>
 
-<br>
-
-<p>Where can I watch the Lotto draws live?</p>
-<p>The draws can be seen live on RTÉ One every Wednesday and Saturday at 7.55pm.</p>
-
-<br>
+<br />
 
 <p>Where can I watch the Lotto draws live?</p>
 <p>The draws can be seen live on RTÉ One every Wednesday and Saturday at 7.55pm.</p>

@@ -1,7 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  line: '36, 1, 2, 3, 4, 5'
+  line: 36, 1, 2, 3, 4, 5
 
 two:
-  line: '1, 2, 3, 4, 5, 6'
+  line: 1, 2, 3, 4, 5, 6
