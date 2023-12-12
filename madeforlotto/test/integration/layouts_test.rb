@@ -8,7 +8,7 @@ class LayoutsTest < ActionDispatch::IntegrationTest
   end
 
   test 'should display navbar, number form, and create form on Make Lines' do
-    get root_path
+    get makelines_path
     assert_select 'a', 'Make Lines', 1
     assert_select 'a', 'FAQs', 1
     assert_select 'a', 'Load Lines', 1

@@ -33116,3 +33116,129 @@ Processing by LinesController#makelines as HTML
 Completed 200 OK in 29ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 5425)
 
 
+Started GET "/" for 127.0.0.1 at 2023-12-12 13:25:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 2.2ms | Allocations: 1220)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4809)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 253.2ms | Allocations: 49860)
+Completed 200 OK in 305ms (Views: 263.5ms | ActiveRecord: 1.0ms | Allocations: 59120)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 13:25:03 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 1.5ms | Allocations: 440)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3248)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-12 13:25:04 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.2ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/loadlines.html.erb:12
+  Rendered lines/_line.html.erb (Duration: 1.1ms | Allocations: 211)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1824)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 4685)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.2ms | Allocations: 5126)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 13:25:05 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.3ms | Allocations: 229)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2970)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3283)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-12-12 13:25:07 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.7ms | Allocations: 471)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2727)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5449)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-12 13:53:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.9ms | Allocations: 1182)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 11.7ms | Allocations: 4909)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 243.3ms | Allocations: 49353)
+Completed 200 OK in 288ms (Views: 253.7ms | ActiveRecord: 0.6ms | Allocations: 58531)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 13:54:01 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 1.1ms | Allocations: 422)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3232)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3645)
+
+
+Started GET "/loadlines" for 127.0.0.1 at 2023-12-12 13:54:02 +0000
+Processing by LinesController#loadlines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/loadlines.html.erb within layouts/application
+  [1m[36mLine Load (0.4ms)[0m  [1m[34mSELECT "lines".* FROM "lines"[0m
+  ↳ app/views/lines/loadlines.html.erb:12
+  Rendered lines/_line.html.erb (Duration: 0.5ms | Allocations: 211)
+  Rendered lines/loadlines.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1836)
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4698)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.4ms | Allocations: 5139)
+
+
+Started GET "/lines/76" for 127.0.0.1 at 2023-12-12 13:54:04 +0000
+Processing by LinesController#show as HTML
+  Parameters: {"id"=>"76"}
+  [1m[36mLine Load (0.7ms)[0m  [1m[34mSELECT "lines".* FROM "lines" WHERE "lines"."id" = ? LIMIT ?[0m  [["id", 76], ["LIMIT", 1]]
+  ↳ app/controllers/lines_controller.rb:70:in `set_line'
+  Rendering layout layouts/application.html.erb
+  Rendering lines/show.html.erb within layouts/application
+  Rendered lines/_line.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered lines/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 883)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 3721)
+Completed 200 OK in 35ms (Views: 16.9ms | ActiveRecord: 0.7ms | Allocations: 6564)
+
+
+Started GET "/faqs" for 127.0.0.1 at 2023-12-12 13:54:09 +0000
+Processing by LinesController#faqs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/faqs.html.erb within layouts/application
+  Rendered lines/faqs.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2931)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 3215)
+
+
+Started GET "/makelines" for 127.0.0.1 at 2023-12-12 13:54:10 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.5ms | Allocations: 464)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2727)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 5449)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5793)
+
+
