@@ -33746,3 +33746,61 @@ Processing by LinesController#makelines as HTML
 Completed 200 OK in 25ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 5411)
 
 
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:35:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 4.6ms | Allocations: 1192)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 16.1ms | Allocations: 4952)
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 145.6ms | Allocations: 42613)
+Completed 200 OK in 236ms (Views: 165.1ms | ActiveRecord: 1.2ms | Allocations: 51789)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:35:23 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.1ms | Allocations: 487)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2827)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 5291)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 5694)
+
+
+Started GET "/makelines?luckyNum=6&unluckyNum=&commit=Submit" for 127.0.0.1 at 2023-12-13 18:35:26 +0000
+Processing by LinesController#makelines as HTML
+  Parameters: {"luckyNum"=>"6", "unluckyNum"=>"", "commit"=>"Submit"}
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.5ms | Allocations: 422)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2667)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 5104)
+Completed 200 OK in 29ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 5435)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:40:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.8ms | Allocations: 1191)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 14.3ms | Allocations: 4927)
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 151.0ms | Allocations: 42548)
+Completed 200 OK in 215ms (Views: 164.4ms | ActiveRecord: 0.7ms | Allocations: 51720)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:40:22 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 0.5ms | Allocations: 487)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2827)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 5288)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 5691)
+
+
