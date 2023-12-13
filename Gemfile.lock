@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/20105070/makeline
+  revision: ae0ad08bfdc3f03c9bf05fcd7e013637136688c6
+  specs:
+    makeline (0.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -118,7 +124,6 @@ GEM
       net-imap
       net-pop
       net-smtp
-    makeline (0.0.0)
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
@@ -262,7 +267,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  makeline
+  makeline!
   pg
   puma (~> 5.0)
   rails (~> 7.0.8)
