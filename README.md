@@ -9,4 +9,3 @@ FAQs allows a user to read up-to-date instructions on how to use _Made for Lotto
 
 ### 3 - Load Lines:
 Load Lines allows a user to read all previously saved Lotto lines from a database. Next, the user can click the Show this line link below a Lotto line to edit or delete the Lotto line. If the user wants to edit the Lotto line, the user can click the Edit this line link, input the edited line, and click the Update Line button. If the user wants to delete the Lotto line, the user can click the Destroy this line button. For the database, the six-number Lotto line is stored in a single string variable for readability purposes.
-
