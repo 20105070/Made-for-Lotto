@@ -33804,3 +33804,37 @@ Processing by LinesController#makelines as HTML
 Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 5691)
 
 
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:52:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 3.4ms | Allocations: 1191)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 15.7ms | Allocations: 4939)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 138.0ms | Allocations: 42589)
+Completed 200 OK in 220ms (Views: 154.4ms | ActiveRecord: 1.6ms | Allocations: 51761)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:52:20 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.3ms | Allocations: 487)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2806)
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5267)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 5670)
+
+
+Started GET "/" for 127.0.0.1 at 2023-12-13 18:52:21 +0000
+Processing by LinesController#makelines as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lines/makelines.html.erb within layouts/application
+  Rendered lines/_form.html.erb (Duration: 1.2ms | Allocations: 422)
+  Rendered lines/makelines.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2655)
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 5092)
+Completed 200 OK in 37ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 5425)
+
+
